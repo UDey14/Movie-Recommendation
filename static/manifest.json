@@ -1,0 +1,17 @@
+{
+    "name": "Cute Movie Recommender",
+    "short_name": "Movies ✨",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffe4f7",
+    "theme_color": "#ff69b4",
+    "icons": [
+      {
+        "src": "/static/icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  }
+  
+  

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Movie Recommender ✨</title>
+  <link rel="manifest" href="/static/manifest.json">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>Movie Recommender 🌸✨</h1>
+
+  <div class="container">
+    <select id="industrySelect">
+      <option value="">Select Industry</option>
+      <option value="Hollywood">Hollywood</option>
+      <option value="Bollywood">Bollywood</option>
+    </select>
+
+    <input type="text" id="genreInput" placeholder="Enter Genre (e.g. Action, Romance)" />
+
+    <button onclick="getRecommendations()">Get Recommendations ❤️</button>
+
+    <ul id="recommendations"></ul>
+  </div>
+
+  <script src="/static/app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/static/service_worker.js')
+      .then(function() {
+        console.log('Service Worker Registered');
+      });
+    }
+  </script>
+</body>
+</html>

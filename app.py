@@ -1,59 +1,102 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, redirect, url_for, session
 import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import linear_kernel
+import random
 
 app = Flask(__name__)
+app.secret_key = 'your_secret_key'
 
-# Load the movie dataset
-movies = pd.read_csv('mixed_movies_clean.csv')
+# Load the dataset
+movie_data = pd.read_csv('mixed_movies_clean.csv')
 
-# Create a TF-IDF Vectorizer
-tfidf = TfidfVectorizer(stop_words='english')
+# Fill missing values only for string columns
+string_cols = movie_data.select_dtypes(include='object').columns
+movie_data[string_cols] = movie_data[string_cols].fillna('')
 
-# Fill missing overviews with empty string
-movies['overview'] = movies['overview'].fillna('')
+# Prepare dropdown options
+genre_list = sorted(set(genre.strip() 
+                        for genres in movie_data['genre'].dropna() 
+                        for genre in str(genres).split(',')))
 
-# Fit the model
-tfidf_matrix = tfidf.fit_transform(movies['overview'])
+industry_list = sorted(movie_data['industry'].dropna().unique())
 
-# Compute similarity matrix
-cosine_sim = linear_kernel(tfidf_matrix, tfidf_matrix)
+@app.route('/')
+def index():
+    return render_template('login.html')
 
-# Function to get recommendations
-def get_recommendations(genre, industry):
-    filtered_movies = movies[
-        (movies['genre'].str.lower() == genre.lower()) &
-        (movies['industry'].str.lower() == industry.lower())
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        username = request.form['username']
+        password = request.form['password']
+        session['username'] = username
+        return redirect(url_for('home'))
+    return render_template('login.html')
+
+@app.route('/signup')
+def signup():
+    return render_template('signup.html')
+
+@app.route('/signup_submit', methods=['POST'])
+def signup_submit():
+    username = request.form['username']
+    password = request.form['password']
+    return redirect(url_for('index'))
+
+@app.route('/logout')
+def logout():
+    session.pop('username', None)
+    return redirect(url_for('index'))
+
+@app.route('/home', methods=['GET', 'POST'])
+def home():
+    if 'username' not in session:
+        return redirect(url_for('index'))
+
+    recommendations = []
+    selected_genre = ''
+    selected_industry = ''
+
+    if request.method == 'POST':
+        selected_genre = request.form['genre']
+        selected_industry = request.form['industry']
+
+        filtered = movie_data[
+            movie_data['genre'].str.contains(rf'\b{selected_genre}\b', case=False, na=False) &
+            (movie_data['industry'].str.lower() == selected_industry.lower())
+        ]
+
+        if not filtered.empty:
+            recommendations = filtered.sample(n=min(5, len(filtered))).to_dict('records')
+
+    return render_template('home.html',
+                           username=session['username'],
+                           genre_list=genre_list,
+                           industry_list=industry_list,
+                           selected_genre=selected_genre,
+                           selected_industry=selected_industry,
+                           recommendations=recommendations)
+
+@app.route('/shuffle', methods=['POST'])
+def shuffle():
+    genre = request.form['genre']
+    industry = request.form['industry']
+
+    filtered = movie_data[
+        movie_data['genre'].str.contains(rf'\b{genre}\b', case=False, na=False) &
+        (movie_data['industry'].str.lower() == industry.lower())
     ]
 
-    if filtered_movies.empty:
-        return []
+    recommendations = []
+    if not filtered.empty:
+        recommendations = filtered.sample(n=min(5, len(filtered))).to_dict('records')
 
-    idx = filtered_movies.index[0]
-
-    sim_scores = list(enumerate(cosine_sim[idx]))
-    sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)
-    sim_scores = sim_scores[1:6]  # Top 5 similar movies
-
-    movie_indices = [i[0] for i in sim_scores]
-    return movies.iloc[movie_indices][['title']].to_dict(orient='records')
-
-# Home route
-@app.route('/')
-def home():
-    return render_template('index.html')
-
-# Recommend route
-@app.route('/recommend')
-def recommend():
-    genre = request.args.get('genre')
-    industry = request.args.get('industry')
-    if not genre or not industry:
-        return jsonify({"error": "Missing genre or industry"}), 400
-
-    recommendations = get_recommendations(genre, industry)
-    return jsonify(recommendations)
+    return render_template('home.html',
+                           username=session['username'],
+                           genre_list=genre_list,
+                           industry_list=industry_list,
+                           selected_genre=genre,
+                           selected_industry=industry,
+                           recommendations=recommendations)
 
 if __name__ == '__main__':
     app.run(debug=True)

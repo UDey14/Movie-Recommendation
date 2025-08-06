@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Movie Recommender</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            position: relative;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        .emoji-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 0;
+            display: flex;
+            flex-wrap: wrap;
+            opacity: 0.25;
+            font-size: 2.5rem;
+            pointer-events: none;
+            color: #ffff66;
+            justify-content: center;
+            align-content: flex-start;
+        }
+
+        .form-container {
+            position: relative;
+            z-index: 1;
+            background-color: rgba(0, 0, 0, 0.85);
+            width: 90%;
+            max-width: 350px;
+            margin: 80px auto;
+            padding: 30px 20px;
+            border-radius: 8px;
+            color: white;
+            text-align: center;
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin: 12px 0;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+        }
+
+        button {
+            width: 100%;
+            font-size: 16px;
+            background-color: #ffcc00;
+            border: none;
+            padding: 12px;
+            margin-top: 12px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #e6b800;
+        }
+
+        a {
+            color: #ffcc00;
+            text-decoration: none;
+            display: block;
+            margin-top: 12px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 500px) {
+            .emoji-bg {
+                font-size: 1.8rem;
+                justify-content: center;
+            }
+
+            .form-container {
+                padding: 25px 15px;
+            }
+
+            input, button {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="emoji-bg">
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮 
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮
+    🎬 🍿 🎟️ 🥤 😂 🎥 🎞️ 📽️ 🍫 😄 🎭 🎧 🕹️ 🎫 🎯 🎮 
+</div>
+
+<div class="form-container">
+    <h2>Login</h2>
+    <form method="POST" action="{{ url_for('login') }}">
+>
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+    </form>
+    <a href="{{ url_for('signup') }}">Don't have an account? Sign up here</a>
+</div>
+
+</body>
+</html>

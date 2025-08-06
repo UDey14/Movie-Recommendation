@@ -1,35 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Movie Recommender ✨</title>
-  <link rel="manifest" href="/static/manifest.json">
-  <link rel="stylesheet" href="/static/style.css">
+  <title>Movie Recommender</title>
+  <style>
+    body {
+      background-color: pink;
+      font-family: Arial, sans-serif;
+      padding: 40px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    button {
+      padding: 10px 20px;
+    }
+    #results {
+      margin-top: 30px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Movie Recommender 🌸✨</h1>
-
-  <div class="container">
-    <select id="industrySelect">
-      <option value="">Select Industry</option>
-      <option value="Hollywood">Hollywood</option>
-      <option value="Bollywood">Bollywood</option>
-    </select>
-
-    <input type="text" id="genreInput" placeholder="Enter Genre (e.g. Action, Romance)" />
-
-    <button onclick="getRecommendations()">Get Recommendations ❤️</button>
-
-    <ul id="recommendations"></ul>
+  <h1>Movie Recommendation System</h1>
+  <div class="form-group">
+    <label>Genre:</label>
+    <input type="text" id="genre" placeholder="e.g. action, romance">
   </div>
+  <div class="form-group">
+    <label>Industry:</label>
+    <input type="text" id="industry" placeholder="e.g. hollywood, bollywood">
+  </div>
+  <button onclick="getRecommendations()">Get Recommendations</button>
 
-  <script src="/static/app.js"></script>
+  <div id="results"></div>
+
   <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/static/service_worker.js')
-      .then(function() {
-        console.log('Service Worker Registered');
+    function getRecommendations() {
+      const genre = document.getElementById("genre").value;
+      const industry = document.getElementById("industry").value;
+
+      fetch("/recommend", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ genre: genre, industry: industry })
+      })
+      .then(response => response.json())
+      .then(data => {
+        const resultDiv = document.getElementById("results");
+        resultDiv.innerHTML = "<h2>Recommended Movies:</h2>";
+        if (data.length === 0) {
+          resultDiv.innerHTML += "<p>No matching movies found.</p>";
+        } else {
+          const ul = document.createElement("ul");
+          data.forEach(title => {
+            const li = document.createElement("li");
+            li.textContent = title;
+            ul.appendChild(li);
+          });
+          resultDiv.appendChild(ul);
+        }
+      })
+      .catch(error => {
+        console.error("Error:", error);
       });
     }
   </script>

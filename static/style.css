@@ -1,53 +1,113 @@
+/* style.css */
+
 body {
-    background: linear-gradient(to right, #ffc0cb, #ffe4e1);
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    text-align: center;
-    padding: 20px;
-    min-height: 100vh;
-  }
-  
-  h1 {
-    color: #ff1493;
-    margin-bottom: 20px;
-  }
-  
-  .container {
-    margin-top: 20px;
-  }
-  
-  select, input, button {
-    padding: 10px;
-    margin: 10px;
-    width: 250px;
-    font-size: 16px;
-    border-radius: 12px;
-    border: 2px solid #ff69b4;
-  }
-  
-  button {
-    background-color: #ff69b4;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
-  button:hover {
-    background-color: #ff1493;
-  }
-  
-  ul {
-    list-style: none;
+    margin: 0;
     padding: 0;
-    margin-top: 20px;
-  }
-  
-  li {
-    background: #ffe4f7;
-    margin: 10px auto;
+    font-family: Arial, sans-serif;
+    color: white;
+    overflow-x: hidden;
+    min-height: 100vh;
+    position: relative;
+    background-color: black;
+}
+
+.poster-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background-image: 
+        url('https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg'),
+        url('https://upload.wikimedia.org/wikipedia/en/2/2b/Haseetohphasee_poster.jpg'),
+        url('https://upload.wikimedia.org/wikipedia/en/1/17/Doctor_Strange_in_the_Multiverse_of_Madness_poster.jpg'),
+        url('https://upload.wikimedia.org/wikipedia/en/0/03/Inception_%282010%29_theatrical_poster.jpg'),
+        url('https://upload.wikimedia.org/wikipedia/en/7/7e/Avengers_Endgame_poster.jpg');
+    background-repeat: no-repeat;
+    background-size: 25% 45%;
+    background-position: top left, top right, bottom left, bottom right;
+    opacity: 0.15;
+    filter: blur(1px);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+.container {
+    max-width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(20, 20, 20, 0.6);
+    border-radius: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 90%;
+    max-width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.btn {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4444;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #dd2222;
+}
+
+.recommendation-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.movie-box {
+    background-color: rgba(255, 255, 255, 0.08);
     padding: 15px;
-    width: 300px;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(255, 105, 180, 0.3);
-  }
-  
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .recommendation-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .movie-box {
+        width: 300px;
+    }
+}

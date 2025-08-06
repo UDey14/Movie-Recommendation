@@ -1,99 +1,83 @@
-title,genre,industry,overview
-Inception,Sci-Fi,Hollywood,A thief who steals corporate secrets through dream-sharing technology.
-3 Idiots,Comedy,Bollywood,Two friends search for their long-lost companion from college days.
-Interstellar,Sci-Fi,Hollywood,A team travels through a wormhole in space in an attempt to ensure humanity's survival.
-Dilwale Dulhania Le Jayenge,Romance,Bollywood,A young couple falls in love during a vacation in Europe.
-The Dark Knight,Action,Hollywood,Batman faces the Jokera criminal mastermind spreading chaos.
-Zindagi Na Milegi Dobara,Adventure,Bollywood,Three friends take a bachelor trip across Spain.
-Titanic,Romance,Hollywood,A poor artist and a rich woman fall in love on the ill-fated RMS Titanic.
-Dangal,Sports,Bollywood,A former wrestler trains his daughters to become world-class wrestlers.
-Avengers: Endgame,Action,Hollywood,The surviving members of the Avengers work to reverse Thanos' actions.
-Kabir Singh,Romance,Bollywood,A surgeon falls into self-destruction after his lover marries another man.
-The Matrix,Sci-Fi,Hollywood,A hacker discovers the world is a simulated reality and joins a rebellion.
-Bajrangi Bhaijaan,Drama,Bollywood,A man embarks on a journey to reunite a mute Pakistani girl with her family.
-Gladiator,Action,Hollywood,A former Roman General sets out to exact vengeance against the corrupt emperor.
-Queen,Drama,Bollywood,A young woman embarks on a solo honeymoon trip after her marriage falls apart.
-Jurassic Park,Adventure,Hollywood,Scientists clone dinosaurs to populate a theme park.
-Barfi!,Romance,Bollywood,The story of three young people learning about love and acceptance.
-The Lion King,Animation,Hollywood,A young lion prince flees his kingdom only to learn the true meaning of responsibility.
-Piku,Drama,Bollywood,A road trip brings a daughter and her aging eccentric father closer.
-Finding Nemo,Animation,Hollywood,A timid clownfish sets out on a journey to bring his son home.
-Gully Boy,Drama,Bollywood,A coming-of-age story based on the lives of street rappers in Mumbai.
-Forrest Gump,Drama,Hollywood,The life journey of Forrest Gump a slow-witted but kind-hearted man.
-Lagaan,Sports,Bollywood,Villagers challenge British officers to a cricket match to avoid taxes.
-Frozen,Animation,Hollywood,A princess sets out on a journey to find her estranged sister.
-Kuch Kuch Hota Hai,Romance,Bollywood,College friends reunite after years to fulfill a dying wish.
-The Avengers,Action,Hollywood,Earth’s mightiest heroes must come together to stop a global threat.
-Harry Potter and the Sorcerer's Stone,Fantasy,Hollywood,A young wizard discovers his magical heritage.
-Chhichhore,Drama,Bollywood,A tragic incident forces friends to relive their college memories.
-The Lord of the Rings: The Fellowship of the Ring,Fantasy,Hollywood,A hobbit sets out to destroy a powerful ring.
-Andhadhun,Thriller,Bollywood,A blind pianist becomes embroiled in a series of mysterious events.
-Spider-Man: No Way Home,Action,Hollywood,Peter Parker seeks help to restore his secret identity.
-PK,Comedy,Bollywood,An alien lands on Earth and questions religious dogmas.
-Black Panther,Action,Hollywood,The heir to the hidden kingdom of Wakanda must step up as king.
-Bajirao Mastani,Romance,Bollywood,A historical romance between Maratha Peshwa Bajirao and Mastani.
-Toy Story,Animation,Hollywood,Toys come to life when their owners are not around.
-Swades,Drama,Bollywood,An Indian expatriate returns to his village to bring change.
-The Shawshank Redemption,Drama,Hollywood,Two imprisoned men bond over a number of years.
-Taare Zameen Par,Drama,Bollywood,A teacher helps a dyslexic child discover his true potential.
-Avatar,Sci-Fi,Hollywood,A paraplegic Marine dispatched to Pandora becomes torn between two worlds.
-Jab We Met,Romance,Bollywood,A heartbroken businessman finds love on a train journey.
-Iron Man,Action,Hollywood,After being held captive an industrialist creates a powerful suit of armor.
-Munna Bhai M.B.B.S,Comedy,Bollywood,A gangster sets out to fulfill his father's dream of becoming a doctor.
-Up,Animation,Hollywood,An old man ties thousands of balloons to his house and flies to South America.
-Rockstar,Romance,Bollywood,An aspiring musician's journey through fame heartbreak and self-destruction.
-The Godfather,Crime,Hollywood,The aging patriarch of an organized crime dynasty transfers control to his son.
-Raazi,Thriller,Bollywood,A Kashmiri woman agrees to marry a Pakistani officer to spy for India.
-The Incredibles,Animation,Hollywood,A family of undercover superheroes living quietly are forced into action.
-Dhoom 2,Action,Bollywood,An international thief battles the police in an intense chase.
-Guardians of the Galaxy,Action,Hollywood,A group of intergalactic criminals must pull together to stop a fanatical warrior.
-Ae Dil Hai Mushkil,Romance,Bollywood,Explores love friendship and heartbreak among millennials.
-Coco,Animation,Hollywood,A boy journeys into the Land of the Dead to find his great-great-grandfather.
-Finding Nemo,Animation,Hollywood,A clownfish sets out to find his missing son.
-Queen,Drama,Bollywood,A young woman embarks on a solo honeymoon trip after her fiancé calls off the wedding.
-Captain America: The Winter Soldier,Action,Hollywood,Steve Rogers struggles to embrace his role in the modern world.
-Zindagi Na Milegi Dobara,Adventure,Bollywood,Three friends reunite for a road trip in Spain.
-Star Wars: A New Hope,Sci-Fi,Hollywood,A farm boy joins a rebel alliance to defeat the Galactic Empire.
-Lagaan,Drama,Bollywood,Indian villagers challenge British rulers to a game of cricket.
-Frozen,Animation,Hollywood,A princess sets out to find her estranged sister who has icy powers.
-Dil Dhadakne Do,Drama,Bollywood,A dysfunctional family sets out on a cruise to mend relationships.
-Doctor Strange,Sci-Fi,Hollywood,A surgeon discovers the world of mystic arts.
-Barfi!,Drama,Bollywood,A deaf-mute boy and an autistic girl form a special bond.
-Pirates of the Caribbean: The Curse of the Black Pearl,Adventure,Hollywood,A blacksmith teams up with a pirate to rescue his love.
-Dangal,Sports,Bollywood,A father trains his daughters to become world-class wrestlers.
-Inside Out,Animation,Hollywood,The emotions inside a young girl's mind struggle to guide her.
-Padmaavat,Drama,Bollywood,A Rajput queen defends her honor against a tyrannical ruler.
-The Avengers,Action,Hollywood,Earth's mightiest heroes must unite to stop a global threat.
-Barfi!,Drama,Bollywood,A cheerful deaf-mute boy falls in love with two women.
-The Lion King,Animation,Hollywood,A young lion prince flees his kingdom only to learn the true meaning of responsibility.
-Dear Zindagi,Drama,Bollywood,A budding cinematographer seeks advice on life and love.
-Thor: Ragnarok,Action,Hollywood,Thor must escape the alien planet Sakaar to save Asgard.
-Kesari,Action,Bollywood,The story of the Battle of Saragarhi where 21 Sikhs fought against thousands.
-Moana,Animation,Hollywood,An adventurous teenager sails out on a daring mission to save her people.
-Gully Boy,Drama,Bollywood,A coming-of-age story about a street rapper from Mumbai.
-WALL-E,Animation,Hollywood,A small waste-collecting robot inadvertently embarks on a space journey.
-Piku,Comedy,Bollywood,A quirky comedy about a father-daughter relationship.
-Shrek,Animation,Hollywood,An ogre's swamp is overrun by fairy tale creatures.
-Avengers Endgame,Action,Hollywood,The Avengers assemble to reverse the damage caused by Thanos.
-Kal Ho Naa Ho,Drama,Bollywood,A man tries to bring happiness into the life of a terminally ill woman.
-Ratatouille,Animation,Hollywood,A rat aspires to become a chef in a Parisian restaurant.
-Yeh Jawaani Hai Deewani,Romance,Bollywood,Two former classmates meet during a trekking trip and spark a romance.
-Iron Man 3,Action,Hollywood,Tony Stark faces a formidable terrorist called the Mandarin.
-3 Idiots,Comedy,Bollywood,Three engineering students learn life lessons while navigating college pressures.
-The Jungle Book,Adventure,Hollywood,A boy raised by wolves faces adventures in the jungle.
-My Name is Khan,Drama,Bollywood,An autistic man embarks on a journey to meet the President of the United States.
-Incredibles 2,Animation,Hollywood,The superhero family returns to fight new villains.
-Chennai Express,Action,Bollywood,A man travels across India and finds love on the journey.
-Aladdin,Fantasy,Hollywood,A kind-hearted street urchin falls in love with a princess.
-Bajrangi Bhaijaan,Drama,Bollywood,A devoted man helps a mute Pakistani girl reunite with her family.
-How to Train Your Dragon,Animation,Hollywood,A young Viking befriends a dragon instead of killing it.
-Kabir Singh,Romance,Bollywood,A short-tempered surgeon goes down a self-destructive path after his lover marries someone else.
-Cinderella,Fantasy,Hollywood,A mistreated young woman rises above her circumstances.
-Sultan,Sports,Bollywood,A wrestler fights to make a comeback to win respect and love.
-Zootopia,Animation,Hollywood,A bunny cop teams up with a sly fox to uncover a conspiracy.
-Dilwale Dulhania Le Jayenge,Romance,Bollywood,Two young lovers must win over their conservative families.
-The Secret Life of Pets,Animation,Hollywood,What pets do when their owners are away.
-Veer-Zaara,Romance,Bollywood,A love story of an Indian man and a Pakistani woman.
-Despicable Me,Animation,Hollywood,A supervillain adopts three girls and discovers family values.
-Om Shanti Om,Romance,Bollywood,A junior artist gets reincarnated to avenge his death.
-Frozen II,Animation,Hollywood,Elsa sets out to discover the origin of her magical powers.
+title,genre,industry,overview,poster_url,rating
+Inception,Sci-Fi,Hollywood,A thief who steals corporate secrets through dream-sharing technology,"https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg.",4.8
+3 Idiots,Comedy,Bollywood,Two friends search for their long-lost companion from college days,"https://upload.wikimedia.org/wikipedia/en/d/df/3_idiots_poster.jpg.",4.9
+Interstellar,Sci-Fi,Hollywood,A team travels through a wormhole in space in an attempt to ensure humanity's survival,"https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg.",4.8
+Dilwale Dulhania Le Jayenge,Romance,Bollywood,A young couple falls in love during a vacation in Europe,"https://upload.wikimedia.org/wikipedia/en/8/80/Dilwale_Dulhania_Le_Jayenge_poster.jpg.",4.7
+The Dark Knight,Action,Hollywood,Batman faces the Jokera criminal mastermind spreading chaos,"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTfE_qrYMBZ_JB8om-34WGaZARhpX26yWRttqIDvn4_7l--UzX8mxKcPrc59IcvTpEA_G8gPA.",4.9
+Zindagi Na Milegi Dobara,Adventure,Bollywood,Three friends take a bachelor trip across Spain,"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTZqarlKCR3ZDm4OMSrBGqhkyxT8UyeqA2Vof9KCROyzjb0R4ZBa_VvGf8aLD6RH3yG0PdPJw.",4.9
+Titanic,Romance,Hollywood,A poor artist and a rich woman fall in love on the ill-fated RMS Titanic,"https://static.wikia.nocookie.net/greatestmovies/images/4/4c/Titanic.jpeg/revision/latest?cb=20230531231117.",4.8
+Dangal,Sports,Bollywood,A former wrestler trains his daughters to become world-class wrestlers,"https://m.media-amazon.com/images/M/MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@._V1_.jpg.",4.7
+Kabir Singh,Romance,Bollywood,A surgeon falls into self-destruction after his lover marries another man,"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTIZpXFR5eQIwJOh2SZzZGV2BB13Vv7EGXnQg1iZGvLR52awlYMizkeODF57T45M1Sn9CdMAg.",3.8
+The Matrix,Sci-Fi,Hollywood,A hacker discovers the world is a simulated reality and joins a rebellion,"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCWXVvfvZR3oe7PCMM0exwV0dObOTKvLfSM-bjvKpQ1VegKXuCtq6aBrxqbIgUNxMbfavy.",4.6
+Bajrangi Bhaijaan,Drama,Bollywood,A man embarks on a journey to reunite a mute Pakistani girl with her family,"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcStVc1_WLmhcpTuhSUtKVMTBltUP7nAoCFA6HBQhV0YXT0ZjGSrZec3UFtCOgRu3B6PBoRD.",4.8
+Gladiator,Action,Hollywood,A former Roman General sets out to exact vengeance against the corrupt emperor,"https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Gladiator_%282000_film_poster%29.png/250px-Gladiator_%282000_film_poster%29.png.",4.8
+Queen,Drama,Bollywood,A young woman embarks on a solo honeymoon trip after her marriage falls apart,"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRmlzTRveS4q6StJdB52uwYVTgOpfQ5Xt2NFLiJA9isuAQHRwnW8t_TkZMlVQbID2-VkNAUCw.",4.9
+Jurassic Park,Adventure,Hollywood,Scientists clone dinosaurs to populate a theme park,"https://ew.com/thmb/nkhTiFxABZj0kDXP_BmARzZq9eM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/mcdjupa_ec032-2000-54a5fd57a2a94d38b6fb28dc3fe47d2b.jpg.",4.7
+Barfi!,Romance,Bollywood,The story of three young people learning about love and acceptance,"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS_P8v3u_TqWjTujo6ACYc1jsOIyS5cgAIU4UNlXXcN6Fl3Xb1-WCGqleyzn6Tq9FfmtJn5wA.",4.9
+The Lion King,Animation,Hollywood,A young lion prince flees his kingdom only to learn the true meaning of responsibility,"https://elokuvalisenssi.fi/wp-content/uploads/2021/07/TheLionKing2019.webp.",4.7
+Piku,Drama,Bollywood,A road trip brings a daughter and her aging eccentric father closer,"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTiIKKY9A9U0bep1_zdJ7ued83kZonf9JL5S3VGAzwAk7lG-cpBrR7uego8f6giGZOQUa0EvA.",4.8
+Finding Nemo,Animation,Hollywood,A timid clownfish sets out on a journey to bring his son home,"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_L85MrBiZe4VhDdeGczFkEryBaUSm9OxNBW79a2ABLzpLCTdH5qasRt11inzqTTUXk2-G.",4.8
+Gully Boy,Drama,Bollywood,A coming-of-age story based on the lives of street rappers in Mumbai,"https://m.media-amazon.com/images/S/pv-target-images/6837cb65d1dc471e1524c795465dd3ed340e82c8a19d5a6dac07c3228dd9b447.jpg.",4.1
+Forrest Gump,Drama,Hollywood,The life journey of Forrest Gump a slow-witted but kind-hearted man,"https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg.",4.9
+Lagaan,Sports,Bollywood,Villagers challenge British officers to a cricket match to avoid taxes,"https://m.media-amazon.com/images/I/51AzgQ0WR5L._UF894,1000_QL80_.jpg.",4.5
+Frozen,Animation,Hollywood,A princess sets out on a journey to find her estranged sister,"https://cdn.shopify.com/s/files/1/0310/7487/7577/files/Y336802859FrozenTheSongs_WR_WR__Rounded_300x.png?v=1722347508.",4.7
+Kuch Kuch Hota Hai,Romance,Bollywood,College friends reunite after years to fulfill a dying wish,"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRRgF42oLKLm1V8tp1kzgC9DsNk9FVo_bEGdSAXiMyubWjhmEy2w7ELKA3hQoW_hT4mSHUN37_0hqbKIqy-R6qq5BzBf5Wd5ArCmC3psw.",4.2
+The Avengers,Action,Hollywood,Earth’s mightiest heroes must come together to stop a global threat,"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQluFl3GfQDXohBaH-xG3GuRi8T4MDIQPRpCqUGLiE5tXdXbUO0hRFwnshvzg07igEgGg7i.",4.6
+Harry Potter and the Sorcerer's Stone,Fantasy,Hollywood,A young wizard discovers his magical heritage,"https://www.chimagazine.it/content/uploads/2024/12/Harry-Potter-886x886.jpg.",4.7
+Chhichhore,Drama,Bollywood,A tragic incident forces friends to relive their college memories,"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTmJSglvulElAJO65Xa97tx_QJSoa8RGLsmRBlBaE3Wra8BkNeENWuE391bgP4qps8gUOD4Sw.",4.8
+The Lord of the Rings: The Fellowship of the Ring,Fantasy,Hollywood,A hobbit sets out to destroy a powerful ring,"https://static.wikia.nocookie.net/lotr/images/8/87/Ringstrilogyposter.jpg/revision/latest?cb=20210720095933.",4.5
+Andhadhun,Thriller,Bollywood,A blind pianist becomes embroiled in a series of mysterious events,"https://akm-img-a-in.tosshub.com/indiatoday/images/photo_gallery/202409/andhadhun_imdb.jpg?VersionId=ANs0AW4ki.7zbJD_Blv94oGIqHJfRpwK&size=686:*.",4.8
+Spider-Man: No Way Home,Action,Hollywood,Peter Parker seeks help to restore his secret identity,"https://i.pinimg.com/736x/db/12/82/db1282e0f4a2ca5730037a3669b6ddd6.jpg.",4.7
+PK,Comedy,Bollywood,An alien lands on Earth and questions religious dogmas,"https://upload.wikimedia.org/wikipedia/en/c/c3/PK_poster.jpg.",4.8
+Black Panther,Action,Hollywood,The heir to the hidden kingdom of Wakanda must step up as king,"https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_FMjpg_UX1000_.jpg.",4.7
+Bajirao Mastani,Romance,Bollywood,A historical romance between Maratha Peshwa Bajirao and Mastani,"https://upload.wikimedia.org/wikipedia/en/c/c0/Bajirao_Mastani_poster.jpg.",4.4
+Toy Story,Animation,Hollywood,Toys come to life when their owners are not around,"https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg.",4.6
+Swades,Drama,Bollywood,An Indian expatriate returns to his village to bring change,"https://upload.wikimedia.org/wikipedia/en/8/85/Swades_poster.jpg.",4.5
+The Shawshank Redemption,Drama,Hollywood,Two imprisoned men bond over a number of years,"https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_.jpg.",4.9
+Taare Zameen Par,Drama,Bollywood,A teacher helps a dyslexic child discover his true potential,"https://upload.wikimedia.org/wikipedia/en/b/b4/Taare_Zameen_Par_Like_Stars_on_Earth_poster.png.",4.9
+Avatar,Sci-Fi,Hollywood,A paraplegic Marine dispatched to Pandora becomes torn between two worlds,"https://upload.wikimedia.org/wikipedia/en/d/d6/Avatar_%282009_film%29_poster.jpg.",4.5
+Jab We Met,Romance,Bollywood,A heartbroken businessman finds love on a train journey,"https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/jab-we-met-et00000182-1681714389.jpg.",4.6
+Iron Man,Action,Hollywood,After being held captive an industrialist creates a powerful suit of armor,"https://upload.wikimedia.org/wikipedia/en/0/02/Iron_Man_%282008_film%29_poster.jpg.",4.7
+Munna Bhai M.B.B.S,Comedy,Bollywood,A gangster sets out to fulfill his father's dream of becoming a doctor,"https://upload.wikimedia.org/wikipedia/en/8/84/Munna_Bhai_M.B.B.S._poster.jpg.",4.8
+Up,Animation,Hollywood,An old man ties thousands of balloons to his house and flies to South America,"https://upload.wikimedia.org/wikipedia/en/0/05/Up_%282009_film%29.jpg.",4.8
+Rockstar,Romance,Bollywood,An aspiring musician's journey through fame heartbreak and self-destruction,"https://upload.wikimedia.org/wikipedia/en/2/2b/Rockstar_%28soundtrack%29.jpg.",4.5
+The Godfather,Crime,Hollywood,The aging patriarch of an organized crime dynasty transfers control to his son,"https://upload.wikimedia.org/wikipedia/en/a/af/The_Godfather%2C_The_Game.jpg.",4.8
+Raazi,Thriller,Bollywood,A Kashmiri woman agrees to marry a Pakistani officer to spy for India,"https://m.media-amazon.com/images/M/MV5BM2QyMTUyNDktN2JlYi00MmYxLWIyNTItNjYxZWI4OTU4NWNmXkEyXkFqcGc@._V1_.jpg.",4.7
+The Incredibles,Animation,Hollywood,A family of undercover superheroes living quietly are forced into action,"https://upload.wikimedia.org/wikipedia/en/2/27/The_Incredibles_%282004_animated_feature_film%29.jpg.",4.6
+Dhoom 2,Action,Bollywood,An international thief battles the police in an intense chase,"https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Dhoom_2_%282006_film%29_poster.jpg/250px-Dhoom_2_%282006_film%29_poster.jpg.",4.4
+Guardians of the Galaxy,Action,Hollywood,A group of intergalactic criminals must pull together to stop a fanatical warrior,"https://upload.wikimedia.org/wikipedia/en/3/33/Guardians_of_the_Galaxy_%28film%29_poster.jpg.",4.7
+Ae Dil Hai Mushkil,Romance,Bollywood,Explores love friendship and heartbreak among millennials,"https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Ae_Dil_Hai_Mushkil.jpg/250px-Ae_Dil_Hai_Mushkil.jpg.",4.6
+Coco,Animation,Hollywood,A boy journeys into the Land of the Dead to find his great-great-grandfather,"https://upload.wikimedia.org/wikipedia/en/9/98/Coco_%282017_film%29_poster.jpg.",4.6
+Captain America: The Winter Soldier,Action,Hollywood,Steve Rogers struggles to embrace his role in the modern world,"https://m.media-amazon.com/images/M/MV5BNzUyM2YyY2MtNzNlMS00MWU5LTgxNjAtNzZlNmI2NjU2NDZlXkEyXkFqcGc@._V1_.jpg.",4.7
+Star Wars: A New Hope,Sci-Fi,Hollywood,A farm boy joins a rebel alliance to defeat the Galactic Empire,"https://lumiere-a.akamaihd.net/v1/images/the-last-jedi-theatrical-poster-film-page_bca06283.jpeg.",4.7
+Doctor Strange,Sci-Fi,Hollywood,A surgeon discovers the world of mystic arts,"https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Doctor_Strange_in_the_Multiverse_of_Madness_poster.jpg/250px-Doctor_Strange_in_the_Multiverse_of_Madness_poster.jpg.",4.7
+Pirates of the Caribbean: The Curse of the Black Pearl,Adventure,Hollywood,A blacksmith teams up with a pirate to rescue his love,"https://upload.wikimedia.org/wikipedia/en/5/5e/Pirates_of_the_Caribbean_-_On_Stranger_Tides.png.",4.7
+Inside Out,Animation,Hollywood,The emotions inside a young girl's mind struggle to guide her,"https://upload.wikimedia.org/wikipedia/en/0/0a/Inside_Out_%282015_film%29_poster.jpg.",
+Padmaavat,Drama,Bollywood,A Rajput queen defends her honor against a tyrannical ruler,"https://upload.wikimedia.org/wikipedia/en/7/73/Padmaavat_poster.jpg.",4.5
+Dear Zindagi,"Romance, Drama",Bollywood,A budding cinematographer seeks advice on life and love,"https://upload.wikimedia.org/wikipedia/en/9/9e/Dear_Zindagi_poster.jpg.",4.8
+Thor: Ragnarok,Action,Hollywood,Thor must escape the alien planet Sakaar to save Asgard,"https://upload.wikimedia.org/wikipedia/en/9/95/Thor_%28film%29_poster.jpg.",4.7
+Kesari,Action,Bollywood,The story of the Battle of Saragarhi where 21 Sikhs fought against thousands,"https://upload.wikimedia.org/wikipedia/en/c/c4/Kesari_poster.jpg.",4.3
+Moana,"Family, Animation",Hollywood,An adventurous teenager sails out on a daring mission to save her people,"https://upload.wikimedia.org/wikipedia/en/2/26/Moana_Teaser_Poster.jpg.",4.7
+WALL-E,"Sci-Fi, Animation",Hollywood,A small waste-collecting robot inadvertently embarks on a space journey,"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhTsnEzLFfDc_mcSIyGd_8zqOtUq600EYe-g&s.",4.7
+Shrek,"Comedy, Animation",Hollywood,An ogre's swamp is overrun by fairy tale creatures,"https://m.media-amazon.com/images/M/MV5BN2FkMTRkNTUtYTI0NC00ZjI4LWI5MzUtMDFmOGY0NmU2OGY1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg.",4.5
+Avengers Endgame,Action,Hollywood,The Avengers assemble to reverse the damage caused by Thanos,"https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg.",4.6
+Kal Ho Naa Ho,Drama,Bollywood,A man tries to bring happiness into the life of a terminally ill woman,"https://upload.wikimedia.org/wikipedia/en/4/45/Kal_Ho_Naa_Ho.jpg.",4.4
+Ratatouille,Animation,Hollywood,A rat aspires to become a chef in a Parisian restaurant,"https://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg.",4.7
+Yeh Jawaani Hai Deewani,Romance,Bollywood,Two former classmates meet during a trekking trip and spark a romance,"https://upload.wikimedia.org/wikipedia/en/1/15/Yeh_jawani_hai_deewani.jpg.",4.5
+Iron Man 3,Action,Hollywood,Tony Stark faces a formidable terrorist called the Mandarin,"https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9259486_p_v13_aa.jpg.",4.7
+3 Idiots,Comedy,Bollywood,Three engineering students learn life lessons while navigating college pressures,"https://m.media-amazon.com/images/M/MV5BNzc4ZWQ3NmYtODE0Ny00YTQ4LTlkZWItNTBkMGQ0MmUwMmJlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg.",4.8
+The Jungle Book,Adventure,Hollywood,A boy raised by wolves faces adventures in the jungle,"https://upload.wikimedia.org/wikipedia/en/a/a4/The_Jungle_Book_%282016%29.jpg.",4.6
+My Name is Khan,Drama,Bollywood,An autistic man embarks on a journey to meet the President of the United States,"https://upload.wikimedia.org/wikipedia/en/5/5d/My_Name_Is_Khan_film_poster.jpg.",4.8
+Incredibles 2,Animation,Hollywood,The superhero family returns to fight new villains,"https://letsgotothemovies.com/wp-content/uploads/2018/06/incredibles_two_ver32.jpg.",4.7
+Chennai Express,Action,Bollywood,A man travels across India and finds love on the journey,"https://upload.wikimedia.org/wikipedia/en/1/1b/Chennai_Express.jpg.",4.5
+Aladdin,Fantasy,Hollywood,A kind-hearted street urchin falls in love with a princess,"https://upload.wikimedia.org/wikipedia/en/9/9a/Aladdin_%28Official_2019_Film_Poster%29.png.",4.4
+Cinderella,Fantasy,Hollywood,A mistreated young woman rises above her circumstances,"https://upload.wikimedia.org/wikipedia/en/c/c2/Cinderella_2015_official_poster.jpg.",4.5
+Sultan,Sports,Bollywood,A wrestler fights to make a comeback to win respect and love,"https://upload.wikimedia.org/wikipedia/en/1/1f/Sultan_film_poster.jpg.",4.8
+Zootopia,Animation,Hollywood,A bunny cop teams up with a sly fox to uncover a conspiracy,"https://lumiere-a.akamaihd.net/v1/images/movie_poster_zootopia_866a1bf2.jpeg?region=0%2C0%2C300%2C450.",4.8
+The Secret Life of Pets,"Animation",Hollywood,What pets do when their owners are away,"https://m.media-amazon.com/images/M/MV5BMjIzMzA1OTkzNV5BMl5BanBnXkFtZTgwODE3MjM4NzE@._V1_.jpg.",4.6
+Veer-Zaara,"Romance, Musical",Bollywood,A love story of an Indian man and a Pakistani woman,"https://upload.wikimedia.org/wikipedia/en/1/1e/Veer-Zaara.jpg.",4.5
+Despicable Me,"Animation, Comedy",Hollywood,A supervillain adopts three girls and discovers family values,"https://upload.wikimedia.org/wikipedia/en/c/c0/Despicable_Me_%282010_animated_feature_film%29.jpg.",4.6
+Om Shanti Om,"Romance, Thriller",Bollywood,A junior artist gets reincarnated to avenge his death,"https://upload.wikimedia.org/wikipedia/en/4/41/Om_Shanti_Om.jpg.",4.7
+Frozen II,"Animation, Fantasy",Hollywood,Elsa sets out to discover the origin of her magical powers,"https://lumiere-a.akamaihd.net/v1/images/p_frozen2_19644_4c4b423d.jpeg?region=0%2C0%2C540%2C810.",4.7
+Darlings,"Thriller, Comedy",Bollywood,A love marriage taking an ugly turn when husband turns into an abusive alcoholic,"https://upload.wikimedia.org/wikipedia/en/e/e2/Darlings_poster.jpg",4.6
+Mrs,"Thriller",Bollywood,Richa an educated dancer finds herself in an arranged marriage to Diwakar a doctor in a very traditional and patriarchal family While her domestic routine begins in the sweet bliss of a new marriage things begin to go south,"https://upload.wikimedia.org/wikipedia/en/c/cf/Mrs._film_poster.jpg",4.9

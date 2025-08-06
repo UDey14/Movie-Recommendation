@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome {{ username }}</title>
+    <style>
+        body {
+            background-color: #111;
+            color: #f1f1f1;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 30px;
+            margin: 0;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        form {
+            margin: 20px auto;
+            max-width: 400px;
+        }
+
+        select, button {
+            padding: 10px;
+            margin: 10px 0;
+            width: 90%;
+            border: none;
+            border-radius: 5px;
+            background-color: #222;
+            color: #fff;
+        }
+
+        button {
+            background-color: #e50914;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ff1e1e;
+        }
+
+        .recommendation {
+            margin: 30px auto;
+            max-width: 800px;
+            padding: 20px;
+            background-color: #1e1e1e;
+            border-radius: 10px;
+        }
+
+        .movie {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #2c2c2c;
+            border-radius: 8px;
+            text-align: left;
+            display: flex;
+            gap: 15px;
+        }
+
+        .movie img {
+            width: 100px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .movie-details {
+            flex: 1;
+        }
+
+        .movie h4 {
+            margin: 0 0 8px 0;
+            color: #ffcc00;
+        }
+
+        .movie p {
+            margin: 5px 0;
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Welcome, {{ username }}!</h2>
+
+    <form method="POST" action="{{ url_for('home') }}">
+        <label for="genre">Select Genre:</label><br>
+        <select name="genre" id="genre" required>
+            {% for genre in genre_list %}
+                <option value="{{ genre }}" {% if genre == selected_genre %}selected{% endif %}>{{ genre }}</option>
+            {% endfor %}
+        </select><br>
+
+        <label for="industry">Select Industry:</label><br>
+        <select name="industry" id="industry" required>
+            {% for industry in industry_list %}
+                <option value="{{ industry }}" {% if industry == selected_industry %}selected{% endif %}>{{ industry }}</option>
+            {% endfor %}
+        </select><br>
+
+        <button type="submit">Get Recommendations</button>
+    </form>
+
+    {% if recommendations %}
+    <div class="recommendation">
+        <h3>Top Movie Recommendations 🎬</h3>
+        {% for movie in recommendations %}
+        <div class="movie">
+            <img src="{{ movie.poster_url }}" alt="Poster">
+            <div class="movie-details">
+                <h4>{{ movie.title }}</h4>
+                <p><strong>Rating:</strong> {{ movie.rating }}/5</p>
+                <p>{{ movie.overview }}</p>
+            </div>
+        </div>
+        {% endfor %}
+
+        <form method="POST" action="{{ url_for('shuffle') }}">
+            <input type="hidden" name="genre" value="{{ selected_genre }}">
+            <input type="hidden" name="industry" value="{{ selected_industry }}">
+            <button type="submit">Shuffle More 🎲</button>
+        </form>
+    </div>
+    {% endif %}
+
+    <br><br>
+    <form action="{{ url_for('logout') }}">
+        <button type="submit" style="background-color:#444;">Logout</button>
+    </form>
+
+</body>
+</html>

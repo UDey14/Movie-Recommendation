@@ -34,12 +34,18 @@ def login():
 
 @app.route('/signup')
 def signup():
+    if request.method == 'POST':
+        username = request.form['username']
+        password = request.form['password']
+        session['username'] = username 
+        return redirect(url_for('home')) 
     return render_template('signup.html')
 
 @app.route('/signup_submit', methods=['POST'])
 def signup_submit():
     username = request.form['username']
     password = request.form['password']
+    session['username'] = username
     return redirect(url_for('index'))
 
 @app.route('/logout')
